@@ -1,7 +1,7 @@
 ﻿Console.WriteLine("Please enter your age");
 int age = Convert.ToInt32(Console.ReadLine());
 
-if (age <0 || age > 109)
+if (age < 0 || age > 109)
 {
     Console.WriteLine("Invalid age");
 
@@ -17,3 +17,4 @@ else if (age >= 13 && age < 19)
 else
 {
     Console.WriteLine("You are a senior citizen");
+}
